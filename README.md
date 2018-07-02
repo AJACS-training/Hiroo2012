@@ -16,11 +16,11 @@
 
 15:30～17:00　実習2
 #### テーマ1
-「Cytoscapeを使ったデータの可視化」資料（PDF, 4.3MB） 櫛田達矢（NBDC）・岡本忍（DBCLS）発表資料（PDF, 34MB） 資料データ（cytoscape, 700kB）
+「Cytoscapeを使ったデータの可視化」[資料（PDF, 4.3MB）](01_kushida/hiroo2012_kushida.pdf) 櫛田達矢（NBDC）・岡本忍（DBCLS）発表資料（PDF, 34MB　[前半](01_kushida/AJACS_hiroo2012_visualization_01-06.pdf)　[後半](01_kushida/AJACS_hiroo2012_visualization_07-24.pdf)） [資料データ（cytoscape, 700kB）](01_kushida/cyano_genes_papers.cys)
 #### テーマ2
 「[マイクロアレイデータの発現解析](02_bono)」坊農秀雅（DBCLS）・小野浩雅（DBCLS）
 #### テーマ3
-「コマンドラインを使った配列解析」資料（PDF, 4.0MB）河野信（DBCLS）、川本祥子（DBCLS）
+「コマンドラインを使った配列解析」[資料（PDF, 4.0MB）](https://dbcls.rois.ac.jp/~shoko/hiroo/commandline_sequence_analysis1.pdf)河野信（DBCLS）、川本祥子（DBCLS）
  
 ### お問い合わせ
 統合データベース講習会事務局 AJACS at biosciencedbc.jp までメールにてお問い合わせください
