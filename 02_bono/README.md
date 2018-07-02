@@ -1,7 +1,7 @@
 
-<p><a href="http://MotDB.DBCLS.jp/?hiroo2012" title="hiroo2012 (2116d)">hiroo2012</a></p>
-<p><span style="font-size:25px;display:inline-block;line-height:130%;text-indent:0px">マイクロアレイデータの発現解析</span>　　　　担当： <a href="http://mercury.dbcls.jp/d/start" rel="nofollow">坊農 秀雅</a>、<a href="http://dbcls.rois.ac.jp/~hono/dokuwiki/doku.php" rel="nofollow">小野 浩雅</a>
-<br /></p>
+# マイクロアレイデータの発現解析
+## 担当： <a href="http://mercury.dbcls.jp/d/start" rel="nofollow">坊農 秀雅</a>、<a href="http://dbcls.rois.ac.jp/~hono/dokuwiki/doku.php" rel="nofollow">小野 浩雅</a>
+
 <p>目次</p>
 <div class="contents">
 <a id="contents_1"></a>
@@ -63,14 +63,14 @@
 <p><span style="color:green">マイクロアレイデータの生物学的な解釈</span></p>
 <p><a href="http://david.abcc.ncifcrf.gov/" rel="nofollow">http://david.abcc.ncifcrf.gov/</a></p>
 <ul class="list1" style="padding-left:16px;margin-left:16px"><li>マイクロアレイ実験の一般的な目的は、実験条件によって得られたある遺伝子群の発現が生物学的にどういう意味を持つかを考えることです。
-<div class="img_margin" style="text-align:left"><a href="http://MotDB.DBCLS.jp/?plugin=attach&amp;refer=AJACS14%2Fthecla&amp;openfile=microarray.analysis.005.png" title="microarray.analysis.005.png"><img src="http://MotDB.DBCLS.jp/?plugin=ref&amp;page=AJACS14%2Fthecla&amp;src=microarray.analysis.005.png" alt="microarray.analysis.005.png" title="microarray.analysis.005.png" width="410" height="242" /></a></div>
+<div class="img_margin" style="text-align:left"><img src="microarray.analysis.005.png" alt="microarray.analysis.005.png" title="microarray.analysis.005.png" width="410" height="242" /></div>
 </li>
 <li>今回は、その方法の一つとして、マイクロアレイの結果に<a href="http://www.google.co.jp/url?sa=t&amp;source=web&amp;cd=4&amp;ved=0CEEQFjAD&amp;url=http%3A%2F%2Fja.wikipedia.org%2Fwiki%2F%25E9%2581%25BA%25E4%25BC%259D%25E5%25AD%2590%25E3%2582%25AA%25E3%2583%25B3%25E3%2583%2588%25E3%2583%25AD%25E3%2582%25B8%25E3%2583%25BC&amp;ei=ve9QTd6XMtG6cbeW1KUH&amp;usg=AFQjCNF8U-O4ktlMGoR9DNC0wKltmbjtmw" rel="nofollow">Gene Ontology</a>の用語を付与することで、生物学的な解釈を行います。</li>
 <li><a href="http://togotv.dbcls.jp/20120927.html#p01" rel="nofollow">【復習用】DAVIDを使ってマイクロアレイデータを解析する 2012</a> <a href="http://lifesciencedb.jp/image/small_video_icon.png" rel="nofollow"><img src="http://lifesciencedb.jp/image/small_video_icon.png" alt="http://lifesciencedb.jp/image/small_video_icon.png" /></a></li></ul>
 
 <a id=""></a><h3 id="content_1_4"><a id="z6529d62"></a> マイクロアレイデータの準備  </h3>
 <p>サンプルデータとして、<a href="http://www.ncbi.nlm.nih.gov/geo/" rel="nofollow">NCBI GEO</a>より取得した公共の遺伝子発現データを用います。このデータは、ある実験の前後の2群間で有意に発現減少した遺伝子群のリストです。</p>
-<div class="img_margin" style="text-align:left"><a href="http://MotDB.DBCLS.jp/?plugin=attach&amp;refer=AJACS24%2Fhono&amp;openfile=110208_IDlist.txt" title="2011/02/07 15:51:39 31.6KB"><img src="image/file.png" width="20" height="20" alt="file" style="border-width:0px" />110208_IDlist.txt</a></div>
+<div class="img_margin" style="text-align:left"><a href="110208_IDlist.txt" title="2011/02/07 15:51:39 31.6KB"><img src="image/file.png" width="20" height="20" alt="file" style="border-width:0px" />110208_IDlist.txt</a></div>
 
 <p>（右クリックして「新しいタブで開く」もしくは「名前を付けてリンク先を保存」してください。）
 <br class="spacer" />
@@ -89,7 +89,7 @@
 <a name="plugin_fold_anchor1"></a>
 <div class="plugin_fold_title_plus" onclick="return plugin_fold_onclick(this,event,'plugin_fold_anchor1')"><p>結果</p>
 </div>
-<div class="plugin_fold_body"><div class="img_margin" style="text-align:left"><a href="http://MotDB.DBCLS.jp/?plugin=attach&amp;refer=AJACS24%2Fhono&amp;openfile=david_go_bp.png" title="david_go_bp.png"><img src="http://MotDB.DBCLS.jp/?plugin=ref&amp;page=AJACS24%2Fhono&amp;src=david_go_bp.png" alt="david_go_bp.png" title="david_go_bp.png" width="989" height="833" /></a></div>
+<div class="plugin_fold_body"><div class="img_margin" style="text-align:left"><img src="david_go_bp.png" alt="david_go_bp.png" title="david_go_bp.png" width="989" height="833" /></div>
 
 </div></li>
 <li>[応用編] Pathways &gt; KEGG_PATHWAY や Tissue Expression &gt; UP_TISSUE なども見てみましょう。生物学的にどういうことが言えるでしょうか。
